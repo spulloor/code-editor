@@ -53,5 +53,6 @@ class AISuggestion(Base):
     line_number = Column(Integer, nullable=False)
     accepted = Column(Boolean, default=False)
     created_at = Column(DateTime, default=datetime.utcnow)
+    status = Column(String, default="pending")  # pending, accepted, rejected
     
     code_file = relationship("CodeFile", back_populates="ai_suggestions")
