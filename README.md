@@ -29,6 +29,6 @@ The backend is mainly written in FASTAPI and uses SQLAlchemy, Pydantic, and Alem
 Additionally, I have provided the `db-migrate.sh` file to aid with database migrations.
 
 # Future Enhancements:
-(*) The Front-end portion needs to be polished. Needs a lot of unit testing to squash the bugs!!
-(*) The Back-end needs to provide endpoints for collaboration with different users.
-(*) Currently uses the open source Ollama model 3.2 that runs locally on my machine to get the AI suggestions part. Can use an OpenAI API for much better availiability.
+* The Front-end portion needs to be polished. Needs a lot of unit testing to squash the bugs!!
+* The Back-end needs to provide endpoints for collaboration with different users.
+* Currently uses the open source Ollama model 3.2 that runs locally on my machine to get the AI suggestions part. Can use an OpenAI API for much better availiability.
